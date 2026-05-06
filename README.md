@@ -170,4 +170,4 @@ Do not share this tool's output externally, use it as evidence in any legal or a
 ---
 
 *Pattern Intel · Samir Saad*
-*[linkedin.com/in/samirsaad786](https://www.linkedin.com/in/samirsaad786/) · [github.com/SamirSaad786](https://github.com/SamirSaad786)*
+*[linkedin.com/in/samirsaad786](https://www.linkedin.com/in/saadsamir/) · [github.com/SamirSaad786](https://github.com/SamirSaad786)*
