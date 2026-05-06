@@ -1,7 +1,7 @@
 # Pattern Intel
 ### Termination Integrity Scanner — 6-Agent Diagnostic System
 **Built by Samir Saad**
-[LinkedIn](https://www.linkedin.com/in/samirsaad786/) · [GitHub](https://github.com/SamirSaad786)
+[LinkedIn](https://www.linkedin.com/in/saadsamir/) · [GitHub](https://github.com/SamirSaad786)
 
 > *"The pattern is always there. Someone has to be looking."*
 > Companion tool to the article **["Your HR Data Isn't Just Inaccurate — It's a Liability Waiting to Happen"](https://www.linkedin.com/in/samirsaad786/)**
