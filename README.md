@@ -4,8 +4,7 @@
 [LinkedIn](https://www.linkedin.com/in/saadsamir/) · [GitHub](https://github.com/samirsaad786/termination-scanner)
 
 > *"The pattern is always there. Someone has to be looking."*
-> Companion tool to the article **"Your HR Data Isn't Just Inaccurate — It's a Liability Waiting to Happen"** — [INSERT LINKEDIN ARTICLE LINK WHEN PUBLISHED]
-
+> Companion tool to the article **"Your HR Data Isn't Just Inaccurate — It's a Liability Waiting to Happen"**
 ---
 
 ## What This Tool Does
