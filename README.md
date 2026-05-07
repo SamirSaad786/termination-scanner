@@ -1,16 +1,16 @@
 # Pattern Intel
 ### Termination Integrity Scanner — 6-Agent Diagnostic System
 **Built by Samir Saad**
-[LinkedIn](https://www.linkedin.com/in/saadsamir/) · [GitHub](https://github.com/SamirSaad786)
+[LinkedIn](https://www.linkedin.com/in/saadsamir/) · [GitHub](https://github.com/samirsaad786/termination-scanner)
 
 > *"The pattern is always there. Someone has to be looking."*
-> Companion tool to the article **["Your HR Data Isn't Just Inaccurate — It's a Liability Waiting to Happen"](https://www.linkedin.com/in/samirsaad786/)**
+> Companion tool to the article **"Your HR Data Isn't Just Inaccurate — It's a Liability Waiting to Happen"** — [INSERT LINKEDIN ARTICLE LINK WHEN PUBLISHED]
 
 ---
 
 ## What This Tool Does
 
-Pattern Intel reads termination data the way a cardiologist reads an EKG — not as a record-keeping function, but as a diagnostic signal. Six specialized AI agents analyze your data sequentially and in parallel, each doing one narrow job, then converge on a single brief that surfaces repeat violations, reason code inconsistencies, organizational clustering, policy gaps, documentation failures, and protected-class timing risks that may represent legal exposure.
+Pattern Intel reads termination data the way a cardiologist reads an EKG — not as a record-keeping function, but as a diagnostic signal. Six specialized AI agents analyze your data sequentially, each doing one narrow job, then converge on a single brief that surfaces repeat violations, reason code inconsistencies, organizational clustering, policy gaps, documentation failures, and protected-class timing risks that may represent legal exposure.
 
 ---
 
@@ -25,7 +25,7 @@ Pattern Intel reads termination data the way a cardiologist reads an EKG — not
 | **Agent 4 — Timing Pattern Agent** | Calculates proximity of termination dates to FMLA leave, ADA accommodation requests, and other protected events. | Protected-class timing is its own legal theory. Findings here must not be entangled with any other signal. |
 | **Agent 5 — Synthesis Agent** | Assembles clean outputs from Agents 1–4. Produces the final diagnostic brief. | Never interprets raw data. Error traceability requires that any fault in the final report be assignable to a specific upstream agent. |
 
-**Execution flow:** Agent 0 runs first in isolation. Agents 1–4 run in parallel, each receiving Agent 0's extracted policy ruleset plus the sanitized CSV. Agent 5 runs last, receiving only the structured JSON outputs of Agents 1–4 — never raw data.
+**Execution flow:** Agent 0 runs first in isolation. Agents 1 through 4 run sequentially, each receiving Agent 0's extracted policy ruleset plus the sanitized CSV. Agent 5 runs last, receiving only the structured JSON outputs of Agents 1–4 — never raw data. Sequential execution ensures no rate limit collisions and gives each agent full processing time.
 
 ---
 
@@ -45,9 +45,14 @@ Open `pattern-intel.html` directly in your browser. The pre-flight gate will pro
 
 **Your key stays yours.** Pattern Intel contains no embedded API key. Every user supplies their own. This means your usage runs against your own Anthropic quota — not anyone else's.
 
+**Before you use this with real data — stop and read this README fully.**
+This tool was built by an HR practitioner using Claude AI. Not by a lawyer. Not by a credentialed software developer. The analysis it produces reflects real HR and employment law thinking, but it has not been validated by legal counsel, does not constitute legal advice, and has not been audited for production use. If you intend to use this beyond running the demo CSV — meaning if you plan to upload actual employee records from your organization — you should: (1) read every section of this README, (2) have employment counsel review the tool's scope and your intended use before proceeding, and (3) ensure your data governance, privacy obligations, and organizational policies permit the use of a third-party AI service for this purpose. The demo data is there for a reason. Use it first.
+
 ---
 
 
+
+## Before You Use This Tool
 
 This tool is designed for use under the guidance of qualified employment counsel or an experienced HR practitioner with knowledge of applicable employment law in every jurisdiction where your employees work.
 
@@ -170,4 +175,4 @@ Do not share this tool's output externally, use it as evidence in any legal or a
 ---
 
 *Pattern Intel · Samir Saad*
-*[linkedin.com/in/samirsaad786](https://www.linkedin.com/in/saadsamir/) · [github.com/SamirSaad786](https://github.com/SamirSaad786)*
+*[linkedin.com/in/saadsamir](https://www.linkedin.com/in/saadsamir/) · [samirsaad786.github.io/termination-scanner](https://samirsaad786.github.io/termination-scanner/)*
